@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+
+body{
+    background-color: #ffe1c2;
+    width: 100%;
+
+}
+nav{
+    background-color: #FF7800;
+    font-family: 'Caveat Brush', cursive;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+/* right side */
+li.right{
+    position: absolute;
+    right: 0px;
+}
+
+a{
+    color: #293A80;
+    padding: 0px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #FDDA16;
+}
+
+
+/* left side */
+li.left{
+    color: #293A80;
+}
+li.left i{
+    padding: 0 2px;
+}
+
+/* CONTENT */
+
+
+.first-container{
+    width: 100%;
+    height: 90vh;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 4px groove;
+}
+.top:hover{
+    cursor: pointer;
+}
+img{
+    width: 480px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.menu{
+    padding: 0px 10px;
+    position: relative;
+
+}
+.menu p{
+    opacity: 0;
+    visibility: hidden;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    color: #ff6a00;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.3s linear;
+    font-size: 30px;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 800;
+    border-bottom: 3px solid;
+
+}
+.menu:hover img{
+    filter: blur(10px);
+    filter: brightness(50%);
+    
+}
+
+.menu:hover p{
+    visibility: visible;
+    opacity: 100%;
+    
+}
