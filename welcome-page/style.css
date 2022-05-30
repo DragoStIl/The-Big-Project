@@ -111,3 +111,15 @@ img{
     opacity: 100%;
     
 }
+
+/* BOTTOM */
+footer{
+    position: absolute;
+    width: 100%;
+    /* right: 0; */
+    background-color: #ff6a00;
+    text-align: right;
+}
+footer a{
+    font-size: 18px;
+}
